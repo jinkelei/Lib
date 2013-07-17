@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2E39D13B174B4FD400163765 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E39D13A174B4FD400163765 /* RootViewController.m */; };
+		2EE7A87A174B4B5300E803C4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE7A879174B4B5300E803C4 /* UIKit.framework */; };
+		2EE7A87C174B4B5300E803C4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE7A87B174B4B5300E803C4 /* Foundation.framework */; };
+		2EE7A87E174B4B5300E803C4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2EE7A87D174B4B5300E803C4 /* CoreGraphics.framework */; };
+		2EE7A884174B4B5300E803C4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7A882174B4B5300E803C4 /* InfoPlist.strings */; };
+		2EE7A886174B4B5300E803C4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A885174B4B5300E803C4 /* main.m */; };
+		2EE7A88A174B4B5300E803C4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A889174B4B5300E803C4 /* AppDelegate.m */; };
+		2EE7A88C174B4B5300E803C4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7A88B174B4B5300E803C4 /* Default.png */; };
+		2EE7A88E174B4B5300E803C4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7A88D174B4B5300E803C4 /* Default@2x.png */; };
+		2EE7A890174B4B5300E803C4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2EE7A88F174B4B5300E803C4 /* Default-568h@2x.png */; };
+		2EE7A899174B4B8100E803C4 /* ASSlipControl.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A898174B4B8100E803C4 /* ASSlipControl.m */; };
+		2EE7A89C174B4BAF00E803C4 /* CenterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A89B174B4BAF00E803C4 /* CenterViewController.m */; };
+		2EE7A89F174B4BBF00E803C4 /* LeftViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A89E174B4BBF00E803C4 /* LeftViewController.m */; };
+		2EE7A8A2174B4BD200E803C4 /* RightViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A8A1174B4BD200E803C4 /* RightViewController.m */; };
+		2EE7A8A5174B4C3500E803C4 /* PresentViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2EE7A8A4174B4C3500E803C4 /* PresentViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2E39D139174B4FD400163765 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		2E39D13A174B4FD400163765 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		2EE7A875174B4B5300E803C4 /* ASSlipControlDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASSlipControlDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2EE7A879174B4B5300E803C4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		2EE7A87B174B4B5300E803C4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		2EE7A87D174B4B5300E803C4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		2EE7A881174B4B5300E803C4 /* ASSlipControlDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ASSlipControlDemo-Info.plist"; sourceTree = "<group>"; };
+		2EE7A883174B4B5300E803C4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		2EE7A885174B4B5300E803C4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2EE7A887174B4B5300E803C4 /* ASSlipControlDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASSlipControlDemo-Prefix.pch"; sourceTree = "<group>"; };
+		2EE7A888174B4B5300E803C4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2EE7A889174B4B5300E803C4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2EE7A88B174B4B5300E803C4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		2EE7A88D174B4B5300E803C4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		2EE7A88F174B4B5300E803C4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		2EE7A897174B4B8100E803C4 /* ASSlipControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASSlipControl.h; sourceTree = "<group>"; };
+		2EE7A898174B4B8100E803C4 /* ASSlipControl.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASSlipControl.m; sourceTree = "<group>"; };
+		2EE7A89A174B4BAF00E803C4 /* CenterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CenterViewController.h; sourceTree = "<group>"; };
+		2EE7A89B174B4BAF00E803C4 /* CenterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CenterViewController.m; sourceTree = "<group>"; };
+		2EE7A89D174B4BBF00E803C4 /* LeftViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftViewController.h; sourceTree = "<group>"; };
+		2EE7A89E174B4BBF00E803C4 /* LeftViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftViewController.m; sourceTree = "<group>"; };
+		2EE7A8A0174B4BD200E803C4 /* RightViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RightViewController.h; sourceTree = "<group>"; };
+		2EE7A8A1174B4BD200E803C4 /* RightViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RightViewController.m; sourceTree = "<group>"; };
+		2EE7A8A3174B4C3500E803C4 /* PresentViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PresentViewController.h; sourceTree = "<group>"; };
+		2EE7A8A4174B4C3500E803C4 /* PresentViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PresentViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2EE7A872174B4B5300E803C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE7A87A174B4B5300E803C4 /* UIKit.framework in Frameworks */,
+				2EE7A87C174B4B5300E803C4 /* Foundation.framework in Frameworks */,
+				2EE7A87E174B4B5300E803C4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2EE7A86A174B4B5300E803C4 = {
+			isa = PBXGroup;
+			children = (
+				2EE7A87F174B4B5300E803C4 /* ASSlipControlDemo */,
+				2EE7A878174B4B5300E803C4 /* Frameworks */,
+				2EE7A876174B4B5300E803C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2EE7A876174B4B5300E803C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7A875174B4B5300E803C4 /* ASSlipControlDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2EE7A878174B4B5300E803C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7A879174B4B5300E803C4 /* UIKit.framework */,
+				2EE7A87B174B4B5300E803C4 /* Foundation.framework */,
+				2EE7A87D174B4B5300E803C4 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		2EE7A87F174B4B5300E803C4 /* ASSlipControlDemo */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7A896174B4B8100E803C4 /* ASSlipControl */,
+				2EE7A888174B4B5300E803C4 /* AppDelegate.h */,
+				2EE7A889174B4B5300E803C4 /* AppDelegate.m */,
+				2EE7A880174B4B5300E803C4 /* Supporting Files */,
+				2EE7A89A174B4BAF00E803C4 /* CenterViewController.h */,
+				2EE7A89B174B4BAF00E803C4 /* CenterViewController.m */,
+				2EE7A89D174B4BBF00E803C4 /* LeftViewController.h */,
+				2EE7A89E174B4BBF00E803C4 /* LeftViewController.m */,
+				2EE7A8A0174B4BD200E803C4 /* RightViewController.h */,
+				2EE7A8A1174B4BD200E803C4 /* RightViewController.m */,
+				2EE7A8A3174B4C3500E803C4 /* PresentViewController.h */,
+				2EE7A8A4174B4C3500E803C4 /* PresentViewController.m */,
+				2E39D139174B4FD400163765 /* RootViewController.h */,
+				2E39D13A174B4FD400163765 /* RootViewController.m */,
+			);
+			path = ASSlipControlDemo;
+			sourceTree = "<group>";
+		};
+		2EE7A880174B4B5300E803C4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7A881174B4B5300E803C4 /* ASSlipControlDemo-Info.plist */,
+				2EE7A882174B4B5300E803C4 /* InfoPlist.strings */,
+				2EE7A885174B4B5300E803C4 /* main.m */,
+				2EE7A887174B4B5300E803C4 /* ASSlipControlDemo-Prefix.pch */,
+				2EE7A88B174B4B5300E803C4 /* Default.png */,
+				2EE7A88D174B4B5300E803C4 /* Default@2x.png */,
+				2EE7A88F174B4B5300E803C4 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		2EE7A896174B4B8100E803C4 /* ASSlipControl */ = {
+			isa = PBXGroup;
+			children = (
+				2EE7A897174B4B8100E803C4 /* ASSlipControl.h */,
+				2EE7A898174B4B8100E803C4 /* ASSlipControl.m */,
+			);
+			path = ASSlipControl;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2EE7A874174B4B5300E803C4 /* ASSlipControlDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2EE7A893174B4B5300E803C4 /* Build configuration list for PBXNativeTarget "ASSlipControlDemo" */;
+			buildPhases = (
+				2EE7A871174B4B5300E803C4 /* Sources */,
+				2EE7A872174B4B5300E803C4 /* Frameworks */,
+				2EE7A873174B4B5300E803C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASSlipControlDemo;
+			productName = ASSlipControlDemo;
+			productReference = 2EE7A875174B4B5300E803C4 /* ASSlipControlDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2EE7A86C174B4B5300E803C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = ArcSoft;
+			};
+			buildConfigurationList = 2EE7A86F174B4B5300E803C4 /* Build configuration list for PBXProject "ASSlipControlDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2EE7A86A174B4B5300E803C4;
+			productRefGroup = 2EE7A876174B4B5300E803C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2EE7A874174B4B5300E803C4 /* ASSlipControlDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2EE7A873174B4B5300E803C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE7A884174B4B5300E803C4 /* InfoPlist.strings in Resources */,
+				2EE7A88C174B4B5300E803C4 /* Default.png in Resources */,
+				2EE7A88E174B4B5300E803C4 /* Default@2x.png in Resources */,
+				2EE7A890174B4B5300E803C4 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2EE7A871174B4B5300E803C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EE7A886174B4B5300E803C4 /* main.m in Sources */,
+				2EE7A88A174B4B5300E803C4 /* AppDelegate.m in Sources */,
+				2EE7A899174B4B8100E803C4 /* ASSlipControl.m in Sources */,
+				2EE7A89C174B4BAF00E803C4 /* CenterViewController.m in Sources */,
+				2EE7A89F174B4BBF00E803C4 /* LeftViewController.m in Sources */,
+				2EE7A8A2174B4BD200E803C4 /* RightViewController.m in Sources */,
+				2EE7A8A5174B4C3500E803C4 /* PresentViewController.m in Sources */,
+				2E39D13B174B4FD400163765 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2EE7A882174B4B5300E803C4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2EE7A883174B4B5300E803C4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2EE7A891174B4B5300E803C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2EE7A892174B4B5300E803C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2EE7A894174B4B5300E803C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASSlipControlDemo/ASSlipControlDemo-Prefix.pch";
+				INFOPLIST_FILE = "ASSlipControlDemo/ASSlipControlDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		2EE7A895174B4B5300E803C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ASSlipControlDemo/ASSlipControlDemo-Prefix.pch";
+				INFOPLIST_FILE = "ASSlipControlDemo/ASSlipControlDemo-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				RUN_CLANG_STATIC_ANALYZER = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2EE7A86F174B4B5300E803C4 /* Build configuration list for PBXProject "ASSlipControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE7A891174B4B5300E803C4 /* Debug */,
+				2EE7A892174B4B5300E803C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2EE7A893174B4B5300E803C4 /* Build configuration list for PBXNativeTarget "ASSlipControlDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2EE7A894174B4B5300E803C4 /* Debug */,
+				2EE7A895174B4B5300E803C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2EE7A86C174B4B5300E803C4 /* Project object */;
+}
